@@ -5,7 +5,7 @@ body {
 
 .recipe-name {
     font-size: 38px;
-    color: lightskyblue;
+    color: rgb(55, 139, 190);
     text-align: center;
     font-weight: bold;
     margin: 36px;
@@ -25,7 +25,7 @@ body {
 
 .link {
     font-weight: bold;
-    background: lightgreen;
+    background: #C8A2C8;
     color: white;
     margin: 10px auto;
     font-size: 24px;
@@ -48,7 +48,10 @@ body {
 .Ingredients {
     padding: 20px;
     display: inline-block;
-    outline: 5px dashed black;
+    outline: 5px dashed #C8A2C8;
     font-weight: bold;
 }
 
+li::marker {
+    color: #C8A2C8;
+}
