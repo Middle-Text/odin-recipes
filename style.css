@@ -61,3 +61,8 @@ li::marker {
     border-top: 3px dashed #C8A2C8; /* Adjust the thickness and color as needed */ 
     margin: 20px 200px; /* Space around the line */ 
 } 
+
+.Steps {
+    display: inline-block;
+    text-align: left;
+}
