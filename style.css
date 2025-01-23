@@ -8,18 +8,27 @@ body {
     color: lightskyblue;
     text-align: center;
     font-weight: bold;
+    margin: 36px;
+}
+
+.recipe-links {
+    text-align: center;
+    padding: 10px;
 }
 
 .button {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    display: block;
+    margin: auto;
 }
 
 .link {
     font-weight: bold;
     background: lightgreen;
     color: white;
+    margin: 10px auto;
+    font-size: 24px;
 }
 
 .image {
@@ -35,3 +44,11 @@ body {
     text-align: center;
     font-weight: bold;
 }
+
+.Ingredients {
+    padding: 20px;
+    display: inline-block;
+    outline: 5px dashed black;
+    font-weight: bold;
+}
+
